@@ -15,7 +15,7 @@ import trendRouter from "./routers/trendRoute.js";
 /* import userRouter from "./routers/user_router.js"; */
 
 const app = express();
-const port = process.env.REACT_APP_API_URL || 4000;
+const port = process.env.PORT || 4000;
 dotenv.config();
 
 // MongoDBStore with session
